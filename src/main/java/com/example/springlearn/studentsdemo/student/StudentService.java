@@ -11,7 +11,11 @@ public class StudentService {
     public List<Student> getStudents() {
         return List.of(
                 new Student(
-                        1L, "Correy", "correy@bunnyinc.ke", LocalDate.of(2019, Month.JANUARY, 17), 4)
+                        1L,
+                        "Correy", "correy@bunnyinc.ke",
+                        LocalDate.of(2019, Month.JANUARY, 17),
+                        4
+                )
         );
     }
 }
